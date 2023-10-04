@@ -1,14 +1,14 @@
 <?php
 printf("abriendo archivo")
-$archivo_url = fopen("archivo.txt"."r");
+$archivo_url = fopen("quijote.txt","r");
 
-$texto
+$texto = "";
 
 while ($fragmento = fgets($archivo_url)){
-    $texto = $fragmento;
+    $texto .= $fragmento;
 
 }
 
 printf($texto);
-printf("<br>Haciendo otra cosa")
+printf("<br>Haciendo otra cosa");
 ?>
